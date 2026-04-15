@@ -1,0 +1,16 @@
+:host {
+  display: block;
+  min-height: 100dvh;
+}
+
+.auth-page {
+  min-height: 100dvh;
+  background: linear-gradient(135deg, var(--bg-base) 0%, var(--bg-elevated) 100%);
+}
+
+.auth-card {
+  width: 100%;
+  max-width: 420px;
+  border-radius: var(--radius-xl);
+  background: var(--bg-surface);
+}
